@@ -19,7 +19,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-ഹായ് {}, എന്റെ പേര് {}! ഞാൻ [ഇദ്ദേഹം](tg://user?id={}) നോക്കി നടത്തുന്ന ഒരു അടിപൊളി അഡ്മിൻ ബോട്ടാണ്.
+Hello Friend {} 👋🏻, I am {} , a member of [ParadoX Bit*](t.me/paradoX_bit) Developed by [Jerry](tg://user?id={}) 🙂.
 
 """
 
