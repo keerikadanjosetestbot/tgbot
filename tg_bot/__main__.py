@@ -136,7 +136,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Use me in 🎉", url="https://t.me/cinema_corp"),  InlineKeyboardButton(text="My Creator 🧑", url="https://t.me/j3rry01")],
+                    [[InlineKeyboardButton(text="Use me in 🎉", url="https://t.me/cinema_corp"),  InlineKeyboardButton(text="My Creator 🧑.", url="https://t.me/j3rry01")],
                      [InlineKeyboardButton(text="Updates Channel🔔", url="https://t.me/paradoX_bit"), InlineKeyboardButton(text="Follow ⚡️", url="https://t.me/paradoX_bit")],
                      [InlineKeyboardButton(text="Website 🧩", url="https://j3rry01.hashnode.dev/"), InlineKeyboardButton(text="🛠 Feedback and suggestions", url="https://t.me/j3rry01") ]]))
 
