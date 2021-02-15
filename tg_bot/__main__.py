@@ -157,7 +157,7 @@ def error_callback(bot, update, error):
         print("BadRequest caught")
         print(error)
 
-        # handle malformed requests - read more below!
+        # handle malformed requests - read more below! sample
     except TimedOut:
         print("no nono3")
         # handle slow connection problems
