@@ -35,8 +35,7 @@ def check_flood(bot: Bot, update: Update) -> str:
 
     try:
         chat.kick_member(user.id)
-        msg.reply_text("ഫ്ലഡ് ചെയ്യുന്നോ... നിങ്ങൾക്കായി ഒരു കണ്ടം ഒരുക്കിയിട്ടുണ്ട്...  "
-                       "ഒന്ന് ഓടിയിട്ട് വരൂ...")
+        msg.reply_text("ഇങ്ങനെ ചറ പറ മെസ്സേജ് ഇടല്ലേ.... അഡ്മിൻ വന്ന് ബാൻ തരും !.")
 
         return "<b>{}:</b>" \
                "\n#BANNED" \
